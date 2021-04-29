@@ -1,6 +1,6 @@
 package de.presti.botbase.commands;
 
-import de.presti.botbase.commands.impl.ExamleCommand;
+import de.presti.botbase.commands.impl.ExampleCommand;
 import de.presti.botbase.utils.ArrayUtil;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.Member;
@@ -21,7 +21,7 @@ public class CommandManager {
 
     public CommandManager() {
 
-        addCommand(new ExamleCommand());
+        addCommand(new ExampleCommand());
 
     }
 

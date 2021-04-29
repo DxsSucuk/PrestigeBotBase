@@ -6,9 +6,9 @@ import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.TextChannel;
 
-public class ExamleCommand extends Command {
+public class ExampleCommand extends Command {
 
-    public ExamleCommand() {
+    public ExampleCommand() {
         super("example", "Just a example Command", Category.EXAMPLE);
     }
 
