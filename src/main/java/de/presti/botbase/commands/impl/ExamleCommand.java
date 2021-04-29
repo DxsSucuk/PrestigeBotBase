@@ -15,7 +15,7 @@ public class ExamleCommand extends Command {
     @Override
     public void onPerform(Member sender, Message messageSelf, String[] args, TextChannel m) {
         messageSelf.delete().queue();
-        m.sendMessage("Example").queue();
-        m.sendMessage("Send by " + sender.getNickname() + ", " + args[0]).queue();
+        sendMessage("Example", m);
+        sendMessage("Send by " + sender.getNickname() + ", " + args[0], 5, m);
     }
 }
